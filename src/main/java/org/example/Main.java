@@ -9,6 +9,7 @@ import org.example.Tempeture.Run;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
         Pizza classic = new Pizza();
         PizzaExtraCheese extraCheese = new PizzaExtraCheese();
         PizzaExtraCheeseExtraTomato extraCheeseExtraTomato = new PizzaExtraCheeseExtraTomato();
