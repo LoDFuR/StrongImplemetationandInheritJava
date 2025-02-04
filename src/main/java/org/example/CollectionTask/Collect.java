@@ -1,4 +1,4 @@
-package org.example.Collection_task;
+package org.example.CollectionTask;
 
 import java.util.*;
 
@@ -35,8 +35,6 @@ public class Collect {
                 mapwithcnt.put((Integer)e, 1);
             }
 
-
-//            mapwithcnt.containsKey(e) ?  mapwithcnt.put(e, mapwithcnt.get(e) + 1) : mapwithcnt.put(e, 1);
         }
         for (HashMap.Entry<Integer, Integer> e : mapwithcnt.entrySet()) {
             if (e.getValue() > 1)
